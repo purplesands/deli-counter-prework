@@ -5,8 +5,8 @@ def line(array)
     # if no one in line, says it is empty
   else
     katz_deli = []
-    array.each_with_index { |name, index| katz_deli.push("#{index + 1}. #{name}") }
-    puts "The line is currently: #{katz_deli.join(' ')}"
+    array.each_with_index { |name, index| katz_deli.push("#{index + 1}. #{name}") } #taking each element of the array, pushing out number in line + name of person
+    puts "The line is currently: #{katz_deli.join(' ')}" #adds person to line with "join"
   end
 end
 
