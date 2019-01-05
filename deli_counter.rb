@@ -2,6 +2,7 @@
 def line(array)
   if array.length == 0
     puts "The line is currently empty."
+    # if no one in line, says it is empty
   else
     katz_deli = []
     array.each_with_index { |name, index| katz_deli.push("#{index + 1}. #{name}") }
