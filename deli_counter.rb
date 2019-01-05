@@ -6,7 +6,7 @@ def line(array)
   else
     katz_deli = []
     array.each_with_index { |name, index| katz_deli.push("#{index + 1}. #{name}") } #taking each element of the array, pushing out number in line + name of person
-    puts "The line is currently: #{katz_deli.join(' ')}" #adds person to line with "join"
+    puts "The line is currently: #{katz_deli.join(' ')}" #turns array into string w "join" operator
   end
 end
 
