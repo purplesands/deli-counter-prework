@@ -13,6 +13,7 @@ end
 def take_a_number(line, name)
   line.push(name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
+  #adds person to line w push
 end
 
 def now_serving(line)
@@ -20,5 +21,6 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line.shift}."
+    #shift removes first member of line, and outputs it separately
   end
 end
